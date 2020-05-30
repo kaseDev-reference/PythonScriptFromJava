@@ -24,7 +24,7 @@ public class Main {
 		try {
 			String path = Main.class.getProtectionDomain().getCodeSource().getLocation().getPath();
 			path = URLDecoder.decode(path, "UTF-8");
-			path = path.substring(1, path.length());
+			path = path.substring(1);
 			return path.replace("/target/classes/", "");
 		} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
