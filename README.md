@@ -6,4 +6,4 @@ For Java to execute Python scripts, it needs to do so through the System interpr
 
 ![-- must fix diagram --][execution-flow]
 
-[execution-flow]: "./diagrams/execution flow.png" "Execution Flow"
+[execution-flow]: ./diagrams/execution-flow.png "Execution Flow"
